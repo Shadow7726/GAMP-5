@@ -114,13 +114,66 @@ A GAMP assessment is a crucial step in the validation process for computerized s
 
 ## 7. **Testing:**
    - **Test Protocols:**
-     - Develop IQ, OQ, and PQ protocols based on the validation approach.
-     - Perform thorough testing to verify the system meets specified requirements.
+
+### Installation Qualification (IQ)
+
+- Verify installation of hardware, software, infrastructure against vendor specifications.
+- Check system components, conduct inventory checks, and assess equipment calibration status.
+- Review system configurations and security controls.
+- Generate a baseline for operational qualification.
+
+### Operational Qualification (OQ)
+
+- Execute test cases to verify software functions according to user requirements.
+- Test interface functionality and integration with other systems.
+- Validate editing, retrieving, processing, and reporting of data.
+- Test error handling, alarms, and audit trails.
+- Run tests in different operating environments if applicable.
+
+### Performance Qualification (PQ)
+
+- Perform stress and load testing to verify stability under peak conditions.
+- Determine system bottlenecks and assess hardware limitations.
+- Evaluate system behavior during failure scenarios.
+- Measure system metrics such as uptime and response time.
+- Fine-tune system performance and configurations.
+
+### General
+
+- Ensure traceability to requirements and risk assessment.
+- Test data integrity, reliability, and accuracy.
+- Address deviations, investigate failures, and document resolutions.
+- Conduct independent verification of testing as applicable.
+- Ensure compliance with applicable regulations (GxP, 21 CFR Part 11, etc.).
+
 
 ## 8. **Change Control:**
    - **Implement Change Control:**
-     - Establish a process to manage modifications to the system after validation.
-     - Evaluate changes for their impact on product quality and patient safety.
+
+- Establish a documented change control procedure for managing system changes post-validation.
+
+- Categorize changes based on impact - major vs minor.
+
+- Major changes require revalidation per the original protocol. Examples:
+  - New software version/upgrade.
+  - Hardware architecture changes.
+  - New interfaces or functionality.
+  - Modification to critical algorithms.
+  - Changes affecting data integrity.
+
+- Minor changes can be validated through a supplemental protocol. Examples:
+  - Patches, bug fixes.
+  - Configuration changes.
+  - Minor enhancements or changes to non-critical functions.
+
+- Set up a change control board for reviewing and approving changes.
+- Maintain a change control log of all changes. Document change details, justification, and approvals.
+- Perform a risk assessment of proposed changes regarding impact on product quality, safety, and effectiveness.
+- Develop a test protocol focusing on areas affected by the change, and execute tests.
+- Update all relevant validation documents post-change implementation.
+- Retain evidence of revalidation testing and reporting.
+- Ensure changes are communicated to all relevant stakeholders.
+- Monitor changes during regular walkthroughs and audits to ensure adherence to procedures.
 
 ## 9. **Periodic Review:**
    - **Conduct Periodic Reviews:**
