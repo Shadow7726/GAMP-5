@@ -18,12 +18,30 @@
 
 ## **System Development Lifecycle (SDLC):**
 
-- Four major phases: Concept, Project, Operation, and Retirement.
-- Project phase is crucial for validation and system release.
-- Each phase involves specific activities like planning, verification, and reporting.
+### The System Development Lifecycle (SDLC) is a structured process for planning, creating, testing, deploying, and maintaining information systems. It typically consists of four major phases:
 
-Certainly! Here's the GAMP® 5 Categorization beautified into Markdown format:
+1. **Concept Phase:**
+   - **Scope Definition:**
+     - Clearly define the scope of the computerized system, identifying boundaries and interfaces with other systems.
 
+2. **Project Phase:**
+   - **Crucial for Validation and System Release:**
+     - This phase is pivotal for the validation of the system and its subsequent release.
+   - **Activities:**
+     - Planning, specification, verification, and reporting are key activities during this phase.
+
+3. **Operation Phase:**
+   - **Post-Release Operations:**
+     - Involves the day-to-day operations of the system after it has been released.
+   - **Activities:**
+     - Security management, incident or problem management, backup and restoration, disaster recovery, user management review, and periodic audits.
+
+4. **Retirement Phase:**
+   - **End-of-Life Considerations:**
+     - Addresses the processes associated with retiring a system.
+   - **Activities:**
+     - Data retention, migration, or destruction, and the overall management of the retirement process.
+     - 
 
 ## **GAMP® 5 Categorization:**
 
