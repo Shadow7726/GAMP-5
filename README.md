@@ -22,10 +22,30 @@
 - Project phase is crucial for validation and system release.
 - Each phase involves specific activities like planning, verification, and reporting.
 
+Certainly! Here's the GAMP® 5 Categorization beautified into Markdown format:
+
+
 ## **GAMP® 5 Categorization:**
 
-- Four categories: Infrastructure Software, Non-configured Software, Configured Software, and Custom Applications.
-- Category 2 (firmware) from GAMP® 4 was removed and merged with others in GAMP® 5.
+1. **Infrastructure Software:**
+   - Includes operating systems, database engines, middleware, programming languages, and antivirus software.
+   - Forms the foundational software infrastructure for computerized systems.
+
+2. **Non-configured Software:**
+   - Also known as Commercial Off-The-Shelf (COTS) software.
+   - Ready-made software available in the market without configuration.
+   - Examples include laboratory software like chromatography systems.
+
+3. **Configured Software:**
+   - Involves software that is configured based on specific requirements.
+   - Examples include Laboratory Information Management Systems (LIMS), Data Dashboards, and Process Control Systems.
+
+4. **Custom Applications (Bespoke Software):**
+   - Internally or externally developed IT applications.
+   - Tailored to meet the specific business needs of an organization.
+   - Examples include custom-developed pharmaceutical production tracking software.
+
+Note: Category 2 (firmware) from GAMP® 4 was removed in GAMP® 5 and merged with other categories based on the nature of the software.
 
 ## **Data Integrity (ALCOA+):**
 
